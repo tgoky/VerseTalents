@@ -1,0 +1,13 @@
+{
+  "title": "VerseTalents",
+  "text": "VerseTalents is a tech-hub connecting skilled African designers with companies seeking high quality software design and products. VerseTalents has a vision to create 1,000 skilled jobs in Africa by 2025",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}
