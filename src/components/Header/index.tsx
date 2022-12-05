@@ -17,7 +17,7 @@ import {
 } from "./styles";
 
 const Header = ({ t }: any) => {
-  const [visible, setVisibility] = useState(false);
+  const [visible, setVisibility] = useState(true);
 
   const showDrawer = () => {
     setVisibility(!visible);
@@ -33,7 +33,7 @@ const Header = ({ t }: any) => {
       element.scrollIntoView({
         behavior: "smooth",
       });
-      setVisibility(false);
+      setVisibility(true);
     };
     return (
       <>
@@ -63,7 +63,7 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="white_vt.png" width="101px" height="64px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />
