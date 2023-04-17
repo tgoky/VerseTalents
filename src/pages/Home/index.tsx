@@ -24,6 +24,24 @@ const Home = () => {
         icon="white_vt.png"
         id="intro"
       />
+      <a
+  href={IntroContent.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: 'inline-block',
+    padding: '10px 20px',
+    background: 'blue',
+    color: 'white',
+    textDecoration: 'none',
+    borderRadius: '4px',
+    marginTop: '10px',
+    cursor: 'pointer',
+  }}
+>
+  CLICK FOR AISHIBA CONTRACT CODE
+</a>
+     
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}

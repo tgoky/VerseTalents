@@ -145,11 +145,11 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/tgoky"
+                href=""
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Ziyaada_a"
+                href="https://twitter.com/AISHIBATOKEN"
                 src="twitter.svg"
               />
               <SocialLink
@@ -157,7 +157,7 @@ const Footer = ({ t }: any) => {
                 src="linkedin.svg"
               />
               <SocialLink
-                href=""
+                href="https://discord.gg/uBbwnQv9"
                 src="medium.svg"
               />
               <a href="https://www.buymeacoffee.com/adrinlol">
